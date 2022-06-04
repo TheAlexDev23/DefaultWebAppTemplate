@@ -1,0 +1,72 @@
+﻿* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: white;
+    overflow-x: hidden;
+}
+
+main {
+    margin: 15px;
+}
+
+nav {
+    /*Positioning outside*/
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*Positioning inside*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*Style things*/
+    background-color: #222222;
+}
+
+nav ul {
+    margin: 15px;
+    list-style: none;
+    display: flex;
+}
+
+nav .site-name-navbar {
+    position: relative;
+    margin: 15px;
+    transition: all .5s ease;
+}
+
+nav .site-name-navbar:hover {
+    color: #0181b0;
+}
+
+nav .site-name-navbar::after {
+    content: "";
+    display: block;
+    position: absolute;
+
+    left: 0;
+    
+    height: 2px;
+    width: 0;
+   
+    background-color: #0181b0;
+
+    transition: all .5s ease;
+}
+
+nav .site-name-navbar:hover::after {
+    width: 100%;
+}
+
+nav a {
+    color: #e1e2e2;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+nav ul a:hover {
+    color: #0181b0;
+}

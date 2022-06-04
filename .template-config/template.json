@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/template.json",
+  "author": "The Alex Dev",
+  "classifications": [ "Web", "Razor Pages" ],
+  "identity": "DefaultWebAppTemplate",
+  "name": "Custom template for my web projects",
+  "shortName": "customwebtemplate",
+  "sourceName": "DefaultWebAppTemplate",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "preferNameDirectory": true,
+  "symbols": {
+    "CreateIdentity": {
+      "type": "parameter",
+      "description": "Use identity",
+      "datatype": "bool"
+    }
+  }
+}
