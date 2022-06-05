@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background: white;
+    /* background: white; */
     overflow-x: hidden;
 }
 
@@ -18,12 +18,16 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
+
     /*Positioning inside*/
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     /*Style things*/
-    background-color: #222222;
+
+    /*background-color: #222222; */
 }
 
 nav ul {
@@ -39,7 +43,7 @@ nav .site-name-navbar {
 }
 
 nav .site-name-navbar:hover {
-    color: #0181b0;
+    /* color: #0181b0; */
 }
 
 nav .site-name-navbar::after {
@@ -52,7 +56,7 @@ nav .site-name-navbar::after {
     height: 2px;
     width: 0;
    
-    background-color: #0181b0;
+    /* background-color: #0181b0; */
 
     transition: all .5s ease;
 }
@@ -62,11 +66,11 @@ nav .site-name-navbar:hover::after {
 }
 
 nav a {
-    color: #e1e2e2;
+    /* color: #e1e2e2; */
     text-decoration: none;
     transition: all .3s ease;
 }
 
 nav ul a:hover {
-    color: #0181b0;
+    /* color: #0181b0; */
 }
