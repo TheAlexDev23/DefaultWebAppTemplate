@@ -10,12 +10,5 @@
     "language": "C#",
     "type": "project"
   },
-  "preferNameDirectory": true,
-  "symbols": {
-    "CreateIdentity": {
-      "type": "parameter",
-      "description": "Use identity",
-      "datatype": "bool"
-    }
-  }
+  "preferNameDirectory": true
 }
